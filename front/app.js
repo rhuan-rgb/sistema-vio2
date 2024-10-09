@@ -41,7 +41,7 @@ document
       .then((data) => {
         //Executa a resposta de sucesso - retorna ao usuário final
         //exibe um alerta para o usuário final(front) com o nome do usuário que acabou de ser cadastrado
-        alert("usuário cadastrado com sucesso! " + data.user.name);
+        alert("usuário cadastrado com sucesso! ");
 
         //Exibe o log no terminal
         console.log("Usuario criado: ", data.user);
